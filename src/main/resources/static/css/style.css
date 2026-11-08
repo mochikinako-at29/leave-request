@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+h1 {
+  background-color: dodgerblue;
+  width: auto;
+  color: azure;
+  padding: 40px;
+  border-radius: 10px;
+}
+form {
+  place-items: center;
+}
+.login {
+  p {
+    margin-bottom: 0px;
+  }
+}
+.button {
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+}

@@ -1,0 +1,24 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="" UTF-8 />
+    <link rel="stylesheet" th:href="@{/css/style.css}" />
+    <title>休暇申請システム</title>
+  </head>
+  <body>
+    <h1>休暇申請システム</h1>
+    <form method="post" action="/leave/login/">
+      <div class="login">
+        <p>ユーザID</p>
+        <input type="number" name="userId" />
+      </div>
+      <div class="login">
+        <p>パスワード</p>
+        <input type="password" name="password" />
+      </div>
+      <div class="button">
+        <input type="submit" value="ログイン" />
+      </div>
+    </form>
+  </body>
+</html>
