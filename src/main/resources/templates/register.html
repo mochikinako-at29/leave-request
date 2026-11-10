@@ -1,0 +1,30 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="" UTF-8 />
+    <link rel="stylesheet" th:href="@{/css/style.css}" />
+    <title>休暇申請システム</title>
+  </head>
+  <body>
+    <h1>休暇申請システム</h1>
+    <form method="post" action="/leave/register">
+      <div class="dateRange">
+        <div>
+          <p>開始日</p>
+          <input type="date" name="startDate" />
+        </div>
+        <div>
+          <p>終了日</p>
+          <input type="date" name="endDate" />
+        </div>
+      </div>
+      <div>
+        <p>理由</p>
+        <input type="text" name="reason" />
+      </div>
+      <div class="btn">
+        <input type="submit" value="登録" />
+      </div>
+    </form>
+  </body>
+</html>

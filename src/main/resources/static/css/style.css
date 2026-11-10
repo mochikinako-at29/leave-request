@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/* タグ */
 h1 {
   background-color: dodgerblue;
   width: auto;
@@ -7,16 +8,25 @@ h1 {
   padding: 40px;
   border-radius: 10px;
 }
+
 form {
   place-items: center;
 }
-.login {
-  p {
-    margin-bottom: 0px;
-  }
+
+p {
+  margin-bottom: 0px;
 }
-.button {
-  border-radius: 10px;
+
+/* クラス */
+/* ボタンクラス*/
+.btn {
   margin: 10px;
   padding: 20px;
+}
+
+/* 日付範囲クラス */
+.dateRange {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
